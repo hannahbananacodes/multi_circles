@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+  }
+  
+  .canvas {
+    height: 420px;
+    width: 1500px;
+    background-color: magenta;
+    margin: 30px;
+    
+  }
+  
+  .circles1 {
+    display: flex;
+  }
+  
+  .circles2 {
+    display: flex;
+  }
+  
+  .circle_row1 {
+          width: 100px;
+          height: 100px;
+          background: linear-gradient(
+          white 50%, 
+          black 50%);
+        border-radius: 50%;
+        z-index: 2;
+      }
+  
+  .circle_row2 {
+          width:100px;
+          height: 100px;
+          background: linear-gradient(
+          white 50%, 
+          black 50%);
+        border-radius: 50%;
+        position: relative;
+        top:-20px;
+      }
+  
+  .circles3 {
+    display: flex;
+  }
+  
+  .circle_row3 {
+          width:100px;
+          height: 100px;
+          background: linear-gradient(
+          white 50%, 
+          black 50%);
+        border-radius: 50%;
+        position: relative;
+        top:-40px;
+        z-index: 2
+      }
+  
+  .circles4 {
+    display: flex;
+  }
+  
+  .circle_row4 {
+          width:100px;
+          height: 100px;
+          background: linear-gradient(
+          white 50%, 
+          black 50%);
+        border-radius: 50%;
+        position: relative;
+        top:-60px;
+        z-index: 0;
+      }
+  
+  .circles5 {
+    display: flex;
+  }
+  
+  .circle_row5 {
+          width:100px;
+          height: 100px;
+          background: linear-gradient(
+          white 50%, 
+          black 50%);
+        border-radius: 50%;
+        position: relative;
+        top:-80px;
+        z-index: 0;
+      }
